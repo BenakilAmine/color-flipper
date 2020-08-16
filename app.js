@@ -11,4 +11,5 @@ btn.addEventListener('click', function() {
     const randomNumber = 1;
     document.body.style.backgroundColor = colors[randomNumber];
     color.textContent = colors[randomNumber];
+    console.log('hello');
 });
